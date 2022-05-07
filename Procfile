@@ -1,1 +1,1 @@
-worker: ruby -m ftb
+web: bundle exec puma -C config/puma.rb
